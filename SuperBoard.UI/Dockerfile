@@ -5,8 +5,8 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2.300-alpine3.9 AS build
 WORKDIR /src
-COPY ["SuperBoard.UI.csproj", ""]
-COPY ["../SuperBoard.DomainModels/SuperBoard.DomainModels.csproj", "../SuperBoard.DomainModels/"]
+COPY ["SuperBoard.UI/SuperBoard.UI.csproj", ""]
+COPY ["SuperBoard.DomainModels/SuperBoard.DomainModels.csproj", "SuperBoard.DomainModels/"]
 RUN dotnet restore "SuperBoard.UI.csproj"
 COPY . .
 WORKDIR "/src/"
