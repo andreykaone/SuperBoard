@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperBoard.UI", "SuperBoard.UI.csproj", "{45D1232A-46E8-4061-8E37-C40F8BA1D799}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperBoard.DomainModels", "..\SuperBoard.DomainModels\SuperBoard.DomainModels.csproj", "{9B388423-B06D-48E7-98AF-A186E740509C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45D1232A-46E8-4061-8E37-C40F8BA1D799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D1232A-46E8-4061-8E37-C40F8BA1D799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D1232A-46E8-4061-8E37-C40F8BA1D799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D1232A-46E8-4061-8E37-C40F8BA1D799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B388423-B06D-48E7-98AF-A186E740509C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B388423-B06D-48E7-98AF-A186E740509C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B388423-B06D-48E7-98AF-A186E740509C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B388423-B06D-48E7-98AF-A186E740509C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA021797-F99F-4E78-B51A-FD9A051C86B9}
+	EndGlobalSection
+EndGlobal

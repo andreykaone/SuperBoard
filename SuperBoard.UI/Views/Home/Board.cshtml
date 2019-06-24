@@ -1,0 +1,15 @@
+﻿@model SuperBoard.UI.Models.BoardViewModel
+@{
+    ViewData["Title"] = "Board";
+}
+<h1>@ViewData["Title"]</h1>
+
+@foreach (var board in Model.Boards)
+{
+    <h2>@board</h2>
+}
+
+
+<script>
+
+</script>
